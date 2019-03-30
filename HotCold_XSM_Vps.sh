@@ -18,9 +18,8 @@ masternodeprivkey=${masternodegenkey}
 }
 
 # lets install and get the Spectrum daemon
-wget https://github.com/Spectrumcash/Wallets/raw/master/Linux_Spectrumd_1.0.2.tar.gz 
-
-tar -xvf  Linux_Spectrumd_1.0.2.tar.gz
+wget https://github.com/Spectrumcash/Wallets/raw/master/Linux_Spectrumd_2.0.0.0.tar.gz
+tar -xvf  Linux_Spectrumd_2.0.0.0.tar.gz
 chmod +x Spectrumd
 mv Spectrumd /usr/local/bin
 Spectrumd -daemon
